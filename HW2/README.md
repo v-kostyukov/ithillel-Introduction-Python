@@ -3,6 +3,7 @@
 ```
 name.py - display name, drawn with asterisks
 ```
+![screen shot web page](https://github.com/v-kostyukov/ithillel-Introduction-Python/blob/main/HW2/img/name.png)
 ### Write a program that prints a table of escape sequences to the console
 ``` 
 escape_sequences.py -  program prints a table of escape sequences to the console
