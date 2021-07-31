@@ -3,3 +3,7 @@
 ```
 check_password.py - program to check the password
 ```
+### Swap the values of 2 variables in places without using the third variable and without using the multiple assignment property? If it is known that the numbers in the variables are integers.
+``` 
+swap_variables.py - program to swap 2 variables in places
+```
