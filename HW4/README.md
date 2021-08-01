@@ -3,6 +3,10 @@
 ``` 
 two_identical_numbers.py - program check two identical numbers in entering a natural number
 ```
+### A natural number is called automorphic if it is equal to the last digits of its square. Write a program that receives a positive integer N and displays all automorphic numbers not exceeding N
+``` 
+automorphic_numbers.py - program takes a positive integer N and displays all automorphic numbers not exceeding N
+```
 ### Enter a natural number and determine whether it is true that there are two identical numbers in its entry, standing side by side
 ``` 
 two_identical_numbers_stand_next.py - program check two identical numbers in entering a natural number standing next
