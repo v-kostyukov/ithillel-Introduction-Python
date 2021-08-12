@@ -11,3 +11,7 @@ numbers_contained_simultaneously.py - program counts how many numbers are contai
 ``` 
 each_word_given_text_count.py - program for each word from the given text will count how many times it occurs in this text
 ```
+### A text consisting of several lines is given. Print the word that occurs most often in this text. If there are several such words, print the last one.
+``` 
+displays_word_in_this_text.py - program displays the word that occurs most often in this text
+```
