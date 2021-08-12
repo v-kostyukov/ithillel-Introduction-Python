@@ -7,3 +7,7 @@ find_different_numbers.py - program determines how many different numbers are fo
 ``` 
 numbers_contained_simultaneously.py - program counts how many numbers are contained simultaneously both in the first list and in the second
 ```
+### The only line contains text. For each word from a given text, count how many times it appears in this text.
+``` 
+each_word_given_text_count.py - program for each word from the given text will count how many times it occurs in this text
+```
