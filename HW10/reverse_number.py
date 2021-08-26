@@ -1,9 +1,9 @@
-def reverse_it(n, i):
+def reverse_it(n, i=0):
     return i if (n == 0) else reverse_it(n // 10, i * 10 + n % 10)
 
 
 n = int(input('Введите число n: '))
-print(reverse_it(n, 0))
+print(reverse_it(n))
 
 
 # def reverse_it(n):
