@@ -1,5 +1,7 @@
 from my_pack import mod2
 
+# help(mod2)
+
 lst = [i for i in range(0, 12)]
 
 print(lst)

@@ -1,5 +1,7 @@
 from my_pack import mod1
 
+# help(mod1)
+
 a = [23, 44, 5, 21, 67]
 b = [5, 18, 34, 67, 44]
 
