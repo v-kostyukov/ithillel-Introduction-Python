@@ -8,7 +8,7 @@
     count_first: функция в которой каждое натуральное число k встречается ровно k раз: 1, 2, 2
 """
 
-__all__ = ['fun_check', 'reverse_it']
+__all__ = ['fun_check', 'reverse_it', 'count_first']
 __author__ = 'Vitaliy Kostyukov'
 
 
