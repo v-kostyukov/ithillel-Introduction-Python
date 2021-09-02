@@ -1,4 +1,4 @@
-# Home work №6
+# Homework №6
 ### Given a list of numbers and the index of an element in the list k. Remove the element with index k from the list by moving all elements to the right of the element with index k to the left.
 ``` 
 shift_directly_in_list.py - program shifts all the elements, and then removes the last element of the list using the pop () method without parameters

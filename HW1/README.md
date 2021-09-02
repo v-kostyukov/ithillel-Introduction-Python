@@ -1,4 +1,4 @@
-# Home work №1
+# Homework №1
 ### Check Python availability from console
 ```
 python -V

@@ -1,4 +1,4 @@
-# Home work №5
+# Homework №5
 ### Implement an application that accepts the value of numbers from 3 to 9 as input. Checks that the entered number is in the specified range.
 ``` 
 pyramid_of_numbers.py - program that accepts the value of numbers from 3 to 9 as input and prints a pyramid of numbers.

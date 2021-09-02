@@ -1,4 +1,4 @@
-# Home work №4
+# Homework №4
 ### Enter a natural number and determine whether it is true that there are two identical numbers in its entry (not necessarily adjacent)
 ``` 
 two_identical_numbers.py - program check two identical numbers in entering a natural number
