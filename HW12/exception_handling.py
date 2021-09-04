@@ -1,6 +1,6 @@
 def exception():
     a = input("Введите 1 значение: ")
-    b = input("Введите 1 значение: ")
+    b = input("Введите 2 значение: ")
 
     try:
         a = int(a)
@@ -10,7 +10,7 @@ def exception():
         print("Соединение строк: ", con)
     else:
         s = a + b
-        print("Сумма чисед: ", s)
+        print("Сумма чисел: ", s)
 
 
 exception()
