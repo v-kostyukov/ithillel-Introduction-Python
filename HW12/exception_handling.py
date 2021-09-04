@@ -1,0 +1,16 @@
+def exception():
+    a = input("Введите 1 значение: ")
+    b = input("Введите 1 значение: ")
+
+    try:
+        a = int(a)
+        b = int(b)
+    except ValueError:
+        con = ''.join(map(str, (a, b)))
+        print("Соединение строк: ", con)
+    else:
+        s = a + b
+        print("Сумма чисед: ", s)
+
+
+exception()
