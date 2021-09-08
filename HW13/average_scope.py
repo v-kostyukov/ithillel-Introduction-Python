@@ -29,29 +29,10 @@ for k in pupils.keys():
     if pupils[k] < 5:
         print("{:25s} {:.2f}".format(k, pupils[k]))
 
-#
-# inform = inform.split("\n")
-# pupils = []
-#
-# for line in inform:
-#     line = line.split(" ")
-#     pupils.append((line[0], line[1], line[2]))
-#     print(pupils)
+print('{:25s} {:5s}'.format('Средний балл по группе :',
+                                str(round(average / count, 2))))
 
-# average = 0
-#
-# print("Ниже 3 баллов:")
-
-# for p in pupils:
-#     average += int(p[2])
-#     if p[2] < 3:
-#         print(f"{p[0]} {p[1]}: {p[2]}")
-#         average /= len(pupils)
-# print(f"Средняя оценка по классу: {average}")
-
-#    g = int(line[len(line)-2])
-#    s += g
-#    n +=1
-#    if g < 5:
-#        print(i[:-1])
-# print('Средний балл: %.2f' % (s/n))
+with open('src_1.txt', 'w', encoding='utf-8') as out_file:
+    for k in pupils.keys():
+        line = '{:25s} {:.2f}{:1s}'.format(k, pupils[k], '\n')
+        out_file.write(line)
