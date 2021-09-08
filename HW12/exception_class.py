@@ -16,7 +16,7 @@ def f_token(token):
         if token != pass_token:
             raise TokenErr("Incorrect token!")
     except TokenErr as error:
-        print(error.__str__())
+        print(error)
 
 
 t = input("Введите токен: ")
