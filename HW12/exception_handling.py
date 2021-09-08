@@ -7,6 +7,8 @@ def exception():
         b = int(b)
     except ValueError:
         con = ''.join(map(str, (a, b)))
+        # seq = (a, b)
+        # con = ''.join(seq)
         print("Соединение строк: ", con)
     else:
         s = a + b
