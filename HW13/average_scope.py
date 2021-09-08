@@ -30,7 +30,7 @@ for k in pupils.keys():
         print("{:25s} {:.2f}".format(k, pupils[k]))
 
 print('{:25s} {:5s}'.format('Средний балл по группе :',
-                                str(round(average / count, 2))))
+                            str(round(average / count, 2))))
 
 with open('src_1.txt', 'w', encoding='utf-8') as out_file:
     for k in pupils.keys():
