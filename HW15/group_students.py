@@ -52,12 +52,17 @@ class Group:
 
 
 student1 = Student('Petr', 'Ivanov', 20, 'M')
-
+student2 = Student('Nikolay', 'Sidorov', 21, 'M')
 group = Group('G-2021')
 
 group.add_student(student1)
 student1.add_grade(8)
 student1.add_grade(10)
 student1.add_grade(11)
+
+group.add_student(student2)
+student2.add_grade(10)
+student2.add_grade(7)
+student2.add_grade(8)
 
 group.print_journal()
