@@ -25,7 +25,7 @@ class Buffer:
 buffer = Buffer()
 
 for i in range(10):
-    elements = [randint(0, 15) for j in range(randint(1, 16))]
+    elements = [randint(0, 10) for j in range(randint(1, 20))]
     print(f"Генерация чисел: {elements}")
     buffer.add(*elements)
     print(f"Текущая часть в буфере: {buffer.get_current_part()}")
