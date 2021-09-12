@@ -1,14 +1,31 @@
-class Buffer:
+from random import randint
 
+
+class Buffer:
     def __init__(self):
-        # конструктор без аргументов
-        pass
+        self.elements = list()
+        self.sum_elements = 0
 
     def add(self, *a):
-        # добавить следующую часть последовательности
-        pass
+        for number in a:
+            self.elements.append(number)
+
+            if len(self.elements) == 5:
+                for element in self.elements:
+                    self.sum_elements += element
+                self.elements.clear()
+                print(f"Сумма 5 элементов: {self.sum_elements}")
+                self.sum_elements = 0
 
     def get_current_part(self):
-        # вернуть сохраненные в текущий момент элементы последовательности
-        # в порядке, в котором они были добавлены
-        pass
+
+        return self.elements
+
+
+buffer = Buffer()
+
+for i in range(10):
+    elements = [randint(0, 15) for j in range(randint(1, 16))]
+    print(f"Генерация чисел: {elements}")
+    buffer.add(*elements)
+    print(f"Текущая часть в буфере: {buffer.get_current_part()}")
